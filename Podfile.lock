@@ -1,0 +1,79 @@
+PODS:
+  - CropViewController (2.5.4)
+  - DKCamera (1.6.7)
+  - DKImagePickerController (4.3.2):
+    - DKImagePickerController/Camera (= 4.3.2)
+    - DKImagePickerController/Core (= 4.3.2)
+    - DKImagePickerController/ImageDataManager (= 4.3.2)
+    - DKImagePickerController/InlineCamera (= 4.3.2)
+    - DKImagePickerController/PhotoEditor (= 4.3.2)
+    - DKImagePickerController/PhotoGallery (= 4.3.2)
+    - DKImagePickerController/Resource (= 4.3.2)
+  - DKImagePickerController/Camera (4.3.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.3.2):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.2)
+  - DKImagePickerController/InlineCamera (4.3.2):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.3.2):
+    - CropViewController (~> 2.5)
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoGallery (4.3.2):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.2)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SwiftyGif (5.3.0)
+
+DEPENDENCIES:
+  - DKImagePickerController
+
+SPEC REPOS:
+  trunk:
+    - CropViewController
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - SDWebImage
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  CropViewController: 980df34ffc499db89755b2f307f20eca00cd40c6
+  DKCamera: a902b66921fca14b7a75266feb8c7568aa7caa71
+  DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
+
+PODFILE CHECKSUM: 6cd5bd4423f2f6829a8a03a7f096c894acf821e8
+
+COCOAPODS: 1.9.3
